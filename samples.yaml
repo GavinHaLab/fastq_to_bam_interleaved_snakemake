@@ -1,0 +1,9 @@
+#samples.yaml for fastq_to_bam_interleaved.snakefile
+#Anna Hoge
+#Template made October 18th, 2019
+#Ha Lab
+#Fred Hutchinson Cancer Research Center
+
+samples:
+  name1: name1.fq.gz
+  name2: name2.fq.gz
