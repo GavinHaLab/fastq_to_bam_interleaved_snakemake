@@ -17,7 +17,8 @@ map_to_reference:
     mem: 12G
     ncpus: 4
 
-#sort_by_coord:
+sort_by_coord:
+    mem: 8G
 
 mark_dups:
     partition: largenode
@@ -33,3 +34,7 @@ apply_recalibration:
 
 rename_index_files:
     time: "1:0:0"
+
+#get_alignment_metrics:
+
+#get_wgs_metrics:
